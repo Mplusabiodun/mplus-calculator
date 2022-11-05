@@ -89,3 +89,9 @@ button:active {
 .highlight {
   background: rgba(4, 219, 173, 0.747);
 }
+
+@media screen and (max-width:500px) {
+  input[type='text'] {
+    width: 92%;
+  }
+}
